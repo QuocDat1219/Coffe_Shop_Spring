@@ -112,16 +112,6 @@
 
 	<build>
 		<plugins>
-			<!-- Plugin để thực hiện các bài kiểm tra -->
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<configuration>
-					<useSystemClassLoader>false</useSystemClassLoader>
-				</configuration> <!-- Sử dụng phiên bản phù hợp với dự án của bạn -->
-			</plugin>
-
-			<!-- Plugin để đóng gói ứng dụng Spring Boot -->
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
@@ -136,7 +126,6 @@
 			</plugin>
 		</plugins>
 	</build>
-
 	<repositories>
 		<repository>
 			<id>spring-milestones</id>
