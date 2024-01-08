@@ -116,7 +116,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
-				<version>3.0.0-M1</version> <!-- Sử dụng phiên bản phù hợp với dự án của bạn -->
+				<version>2.22.1</version> <!-- Sử dụng phiên bản phù hợp với dự án của bạn -->
 			</plugin>
 
 			<!-- Plugin để đóng gói ứng dụng Spring Boot -->
