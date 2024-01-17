@@ -125,7 +125,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>springboot-coffe-shop</finalName>
+<!--		<finalName>springboot-coffe-shop</finalName>-->
 	</build>
 	<repositories>
 		<repository>
