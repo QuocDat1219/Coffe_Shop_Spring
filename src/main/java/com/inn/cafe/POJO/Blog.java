@@ -28,7 +28,7 @@ public class Blog implements Serializable {
     private String image;
 
     @Lob
-    @Column(name = "description", columnDefinition = "TEXT")
+    @Column(name = "description", columnDefinition = "LONGTEXT")
     private String description;
 
     @Column(name="status")
